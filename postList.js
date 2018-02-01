@@ -17,7 +17,7 @@ for (var k = 0; k < authors.length; k++) {
             var str = "author : " + post[0].author + '\n =================== \n'
             console.log(str)
             for (var i = 0; i < post.length; i++) {
-                str = post[i].created + ' : ' + post[i].title + ' : ' + post[i].permlink + ' : ' + post[i].pending_payout_value.split(' ')[0]
+                str = post[i].created + ' ; ' + post[i].title + ' ; ' + post[i].permlink + ' ; ' + post[i].pending_payout_value.split(' ')[0]
                 console.log(str)
             }
             console.log('\n')
